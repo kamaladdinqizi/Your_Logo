@@ -1,0 +1,46 @@
+/* @media screen and (max-width:481px){
+    .nav-menu_img__wrap{
+        display: block;
+    }
+    .nav-menu_wrap{
+        display: none;
+    }
+} */
+@media screen and (max-width:960px){
+    .main-two_img{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:650px){
+    /* navbarni taxlash uchun */
+    .nav-menu_img__wrap{
+        display: block;
+    }
+    .nav-menu_wrap{
+        display: none;
+    }
+    /* mainni taxlash uchun */
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-one {
+        align-items: center;
+    }
+    .main-one_title {
+       text-align: center;
+    }
+    .main-one_text {
+       text-align: center;
+    }
+    .main-one_btn {
+        margin-left: 0px;
+    }
+    .main-two{
+        display: flex;
+        justify-content: center;
+       align-items: center;
+    }
+   
+}
